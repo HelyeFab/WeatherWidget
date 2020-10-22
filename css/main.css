@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Rimouski';
+  color: #444444;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5d7d8; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+@font-face {
+  font-family: 'Rimouski';
+  src: url("/resources/font/rimouski_sb-webfont.woff") format("woff2"), url("/resources/font/rimouski_sb-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+span {
+  font-weight: 600; }
+
+mark {
+  font-weight: 600;
+  background: transparent;
+  background-image: linear-gradient(120deg, #00bfa6, #00bfa6 100%);
+  background-repeat: no-repeat;
+  background-size: 100% .28em;
+  background-position: 0 80%;
+  position: relative; }
+
+.fa {
+  position: absolute;
+  top: 1.2rem;
+  left: 1.25rem; }
+
+.main {
+  width: 34rem;
+  height: 60rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4rem;
+  background-color: #d5d7d8;
+  margin-top: 3.5rem;
+  box-shadow: -3px -3px 7px #fcfbfb73, 3px 3px 5px rgba(94, 104, 121, 0.288); }
+
+.btn {
+  padding: 1.6rem 2rem;
+  border-radius: 3rem;
+  background-color: #00bfa6;
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  border: 3px solid rgba(226, 224, 224, 0.933);
+  box-shadow: -3px -3px 7px #fcfbfb73, 3px 3px 5px rgba(94, 104, 121, 0.288); }
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%; }
+  .form__image {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 16rem;
+    width: 16rem;
+    background: url("/resources/svg/undraw_weather_app_i5sm.svg") no-repeat center center/cover;
+    border-radius: 50%;
+    border: 3px solid rgba(226, 224, 224, 0.933);
+    box-shadow: -3px -3px 7px #fcfbfb73, 3px 3px 5px rgba(94, 104, 121, 0.288); }
+  .form__title {
+    font-size: 2rem; }
+    .form__title-sub {
+      font-size: 2.6rem; }
+
+.weather__container-tempValue {
+  font-size: 4rem; }
+
+.weather__container-tempValue span {
+  font-size: 2.6rem; }
+
+.weather__container-tempDesc {
+  font-size: 1.8rem; }
+
+.weather__container-location {
+  font-size: 2.6rem;
+  color: #e50050; }
